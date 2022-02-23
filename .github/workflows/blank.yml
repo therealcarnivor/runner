@@ -1,0 +1,12 @@
+name: secret_scanner
+on:
+  push
+jobs:
+  fides:
+    runs-on: self-hosted
+    steps:
+      - name: check out
+        uses: actions/checkout@v2
+
+      - name: execute_action
+        uses: joocer/fides@main
