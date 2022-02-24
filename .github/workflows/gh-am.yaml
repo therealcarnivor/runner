@@ -1,7 +1,7 @@
-name: quality_measures
+name: gh_quality_measures
 on: [push, pull_request]
 jobs:
-  quality_measures:
+  gh_quality_measures:
     runs-on: ubuntu-latest
     steps:
       - name: check out
